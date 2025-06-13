@@ -128,21 +128,6 @@ const rodColors = {
   }
   function hideGhostElectrolyte() { if (ghostElectrolyte) { ghostElectrolyte.remove(); ghostElectrolyte = null; } }
 
-  /*function flashBeaker(color, ms) {
-      let beaker = document.createElement('div');
-      beaker.style.position = "absolute";
-      beaker.style.left = "60px";
-      beaker.style.top = "40px";
-      beaker.style.width = "340px";
-      beaker.style.height = "282px";
-      beaker.style.borderRadius = "30px/19px";
-      beaker.style.background = color;
-      beaker.style.opacity = "0.23";
-      beaker.style.zIndex = "111";
-      simulatorCanvasDiv.appendChild(beaker);
-      setTimeout(() => beaker.remove(), ms);
-  }*/
-
   // ------- METAL DRAG & DROP -------
   metalBtns.forEach(btn => {
       const img = btn.querySelector("img");
